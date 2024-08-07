@@ -1,0 +1,202 @@
+
+body{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main{
+    width: 100%;
+    margin-top: 85px;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-login div p{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+} 
+
+.form-login div input{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1.5px;
+    font-size: 17px;
+    height: 45px;
+    border: none;
+    border: 2px solid rgb(198, 198, 198);
+    padding-left: 15px;
+}
+
+.form-login div input:hover{
+    border: 2px solid rgb(107, 107, 107);
+}
+
+.form-login div input:focus{
+    background-color: transparent;
+    outline: none;
+}
+
+.form-login div button{
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1.5px;
+    font-size: 24px;
+    height: 65px;
+    border: 2px solid rgb(107, 107, 107);
+}
+
+.form-login div button:hover{
+    font-weight: 900;
+    font-size: 25px;
+    transform: scale(1.04);
+    z-index: 1;
+}
+
+.btn-login{
+    background-color: rgb(147, 147, 147);
+    font-size: 24px;
+    height: 65px;
+}
+
+.btn-login:hover{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(42, 42, 42);
+    color: rgb(204, 204, 204);
+}
+
+.form-login div span{
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(90, 90, 90);
+}
+
+.form-login div a{
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.form-login div a:hover{
+    color: rgb(0, 0, 0);
+    text-shadow: -1px -1px 0.5px rgb(204, 204, 204),
+                 1px -1px 0.5px rgb(204, 204, 204),
+                 -1px 1px 0.5px rgb(204, 204, 204),
+                 1px 1px 0.5px rgb(204, 204, 204);
+}
+
+.social-media-follow-bar{
+    position: fixed;
+    z-index: 2;
+    right: 20px;
+    top: 50%;
+    width: 40px;
+}
+
+.messager{
+    position: fixed;
+    z-index: 2;
+    right: 10px;
+    top: 85%;
+    width: 75px;
+}
+
+.social-media-follow-bar a svg:hover{
+    fill:  rgb(147, 147, 147);
+}
+
+.messager a svg:hover{
+    fill:  rgb(147, 147, 147);
+}
+
+.btn{
+    border: none;
+    border-radius: 0;
+    font-size: 17px;
+}
+
+.footer{
+    background-color: rgb(30, 30, 30);
+}
+
+.footer div div div a, .footer div div div p{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.5px;
+    font-size: 16px;
+}
+
+.footer div div div div a:hover{
+    color: rgb(147, 147, 147);
+}
+
+.footer-form div{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+.footer-form div p{
+    color: rgb(179, 179, 179);
+}
+
+.footer-form-input{
+    background-color: transparent;
+    color:rgb(255, 255, 255) !important;
+    font-size: 16px;
+}
+
+.footer-form-input:focus {
+    background-color: transparent;
+}
+
+.footer-form-input::placeholder {
+    color: rgb(183, 183, 183);
+    font-size: 16px;
+}
+
+.item{
+    width: 4px;
+    background-color: rgb(155, 155, 155);
+}
+.footer-form-btn-sub{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.footer-form-btn-sub:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(185, 185, 185);
+}
+
+.footer-form-btn-sub:focus{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+
+.footer-tiltle{
+    height: 50px;
+    background-color: rgb(117, 117, 117);
+}
+
+.footer-tiltle span{
+    color: rgb(209, 209, 209);
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 2.5px;
+}
+
+.err{
+	color: red !important;
+}
+
+.success{
+	text-align: center !important;
+	font-size: large !important;
+	color: rgb(0, 255, 0) !important;
+}
